@@ -1,0 +1,73 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	margin: auto;
+	width: 1000px;
+	background-image: url(img/bj3.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#box {
+	width: 1024px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFF;
+	height: 863px;
+	margin: auto;
+}
+#box #box1 {
+	float: left;
+	width: 500px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 400px;
+	padding-top: 100px;
+}
+#box #box2 {
+	width: 500px;
+	height: 350px;
+	padding-top: 50px;
+	float: left;
+	margin-left: 50px;
+}
+.y {
+	height: 20px;
+	width: 200px;
+	margin: auto;
+	padding-top: 5px;
+	padding-left: 50px;
+	color: #999;
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+#box #box2 form table .y td #textfield2 {
+	background-image: url(img/dl.jpg);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	margin: auto;
+	padding-left: 40px;
+}
+#box #box2 form table .y td #textfield3 {
+	background-image: url(img/bl.jpg);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	padding-left: 40px;
+	margin: auto;
+}
+
+.biaoq {
+	background-color: #03F;
+	height: 30px;
+	width: 60px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: normal;
+}
